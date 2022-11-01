@@ -6,8 +6,8 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     permissions:
-      id-token: ddp_DOzfTlZLEErdaUuG7b12A9SHnKvyK10QGWaj # Needed for auth with Deno Deploy
-      contents: https://github.com/lukexiaoyu/kl-blog.git # Needed to clone the repository
+      id-token: "ddp_DOzfTlZLEErdaUuG7b12A9SHnKvyK10QGWaj" # Needed for auth with Deno Deploy
+      contents: "https://github.com/lukexiaoyu/kl-blog.git" # Needed to clone the repository
 
     steps:
       - name: Clone repository
