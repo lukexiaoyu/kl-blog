@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@astrojs/deno": "^1.2.0",
-    "astro": "^1.6.0"
+    "@astrojs/vue": "^1.2.1",
+    "astro": "^1.6.0",
+    "vue": "^3.2.41"
   }
 }
