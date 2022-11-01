@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       id-token: write # Needed for auth with Deno Deploy
-      contents: rea1d # Needed to clone the repository
+      contents: read # Needed to clone the repository
 
     steps:
       - name: Clone repository
