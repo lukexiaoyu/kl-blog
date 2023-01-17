@@ -3,6 +3,7 @@ import {ref,reactive,computed} from 'vue'
 const adds=[
     {name:'Home',link:'/'},
     {name:'每日计划',link:'/everyday'},
+    {name:'wow',link:'/wow'},
 ]
 </script>
 <template>
